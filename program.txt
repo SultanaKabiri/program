@@ -1,4 +1,4 @@
-class Git;
+class Git{
 
   public static void main(String[] args){
 
@@ -6,4 +6,11 @@ class Git;
 
    System.out.println("Learning program ");
 
+}
+
+
+public void display(){
+string name = "git program"
+System.out.println("Name: "+name);
+}
 }
