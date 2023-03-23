@@ -1,0 +1,13 @@
+public class ProgramBrowser{
+
+   System.setProperty("WebDriver.chrome.driver", "chromedriveC");
+   
+    ChromeOptions option = new ChromeOptions();
+         option.addArguments("--remote-allow-origins=*");
+
+        
+         WebDriver driver = new ChromeDriver(option);
+         
+		 driver.get("https://www.google.com/");
+		 
+		 driver.close();
